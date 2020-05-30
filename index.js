@@ -8,7 +8,8 @@ var before = 'LAST_MESSAGE_ID';
 clearMessages = function(){
 	const channel = window.location.href.split('/').pop();
 	const baseURL = `https://discordapp.com/api/channels/${channel}/messages`;
-	const headers = {"Authorization": "YOUR TOKEN HIER" };
+	const headers = {"Authorization": "716276242244173825
+			" };
 
 	let clock = 0;
 	let interval = 500;
